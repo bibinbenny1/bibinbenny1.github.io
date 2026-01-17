@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibin Benny | AI & Systems</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header>
+        <div class="logo">
+            <a href="#">BB</a>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#thinking">Thinking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-controls">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun" viewBox="0 0 24 24"><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42M12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+                <svg class="moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+            </button>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#thinking">Thinking</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="hero-name">Bibin Benny</h1>
+                <p class="hero-tagline">
+                    <span>Curiosity</span>
+                    <span>in code.</span>
+                    <span>Purpose</span>
+                    <span>in creation.</span>
+                </p>
+                <p class="hero-role">MCA Student at Jain University, building intelligent systems.</p>
+            </div>
+        </section>
+
+        <section id="about" class="scroll-reveal">
+            <div class="container">
+                <p class="section-intro">My Story</p>
+                <div class="story-content">
+                    <p>My journey into technology began at Christ College, where a BCA degree laid my foundation. But it was the 'why' behind the code that truly captivated me. This curiosity led me from Kerala to my current pursuit of an MCA at Jain University, focusing on the worlds of AI and data.</p>
+                    <p>I believe theory finds its purpose in application. For me, learning isn't a passive act—it's the process of building, testing, and refining real systems that can think and assist. It’s in the challenge of creating intelligent applications that I find my direction.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="scroll-reveal">
+            <div class="container">
+                <p class="section-intro">My Toolkit</p>
+                <div class="skills-container">
+                    <div class="skills-group">
+                        <h3>Programming & Data</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">Python</div>
+                            <div class="skill-card">NumPy</div>
+                            <div class="skill-card">Pandas</div>
+                            <div class="skill-card">Matplotlib</div>
+                        </div>
+                    </div>
+                    <div class="skills-group">
+                        <h3>Core & Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">C</div>
+                            <div class="skill-card">MySQL</div>
+                            <div class="skill-card">Git</div>
+                            <div class="skill-card">GitHub</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="scroll-reveal">
+            <div class="container">
+                <p class="section-intro">Featured Project</p>
+                <div class="project-featured">
+                    <div class="project-details">
+                        <h2>Interactive AI Assistant</h2>
+                        <p class="project-description">An intelligent assistant built from the ground up in Python, featuring an app-style interface for seamless user interaction. The system integrates speech recognition, conversational AI, on-demand image generation, and real-time search capabilities.</p>
+                        <ul class="project-features">
+                            <li>Speech Recognition</li>
+                            <li>Chatbot Functionality</li>
+                            <li>Image Generation</li>
+                            <li>Real-time Search</li>
+                        </ul>
+                    </div>
+                    <div class="project-visuals">
+                        <div class="visuals-group">
+                            <div class="laptop-mockup">
+                                <div class="laptop-screen">
+                                    <img src="./dev-screenshot-1.png" alt="Development screenshot of the AI assistant in an IDE." class="carousel-item active">
+                                    <img src="./dev-screenshot-2.png" alt="Another development screenshot showing code." class="carousel-item">
+                                </div>
+                            </div>
+                            <div class="visuals-text">
+                                <h3>The Build</h3>
+                                <p>A look at the Python code and development environment.</p>
+                            </div>
+                        </div>
+                        <div class="visuals-group">
+                             <div class="phone-mockup">
+                                <div class="phone-screen">
+                                    <img src="./app-screenshot-1.png" alt="Screenshot of the AI assistant app interface." class="carousel-item active">
+                                </div>
+                            </div>
+                            <div class="visuals-text">
+                                <h3>The App</h3>
+                                <p>The final user interface and application features.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="thinking" class="scroll-reveal">
+            <div class="container">
+                <p class="section-intro">My Philosophy</p>
+                <div class="thinking-grid">
+                    <div class="thinking-card">
+                        <h3>How I Think</h3>
+                        <p>I approach problems from first principles. I deconstruct the goal, identify the core components, and build upwards. It's about understanding the 'what' and 'why' before getting lost in the 'how'.</p>
+                    </div>
+                    <div class="thinking-card">
+                        <h3>My Approach to Building</h3>
+                        <p>I believe in iterative development. Start with a solid foundation, build the core feature, and then expand. Each cycle of building, testing, and refining adds a layer of robustness and clarity.</p>
+                    </div>
+                    <div class="thinking-card">
+                        <h3>Principles I Follow</h3>
+                        <p>Clarity, efficiency, and purpose. Code should be readable. Systems should be efficient. And every project should have a clear, meaningful goal that guides its development.</p>
+                    </div>
+                    <div class="thinking-card">
+                        <h3>What I’m Learning Now</h3>
+                        <p>I am deepening my understanding of Python's async capabilities, exploring advanced data analysis techniques, and studying the architecture of large-scale AI systems to solve more complex, real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="scroll-reveal">
+             <div class="container">
+                <p class="section-intro">Education</p>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <p>Jain University, Bangalore (Distance Education)</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p>Christ College of Science and Management, Malur</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="scroll-reveal">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <p>I'm always open to discussing new ideas and opportunities.</p>
+                <div class="contact-links">
+                    <a href="mailto:bibinbenny1604@gmail.com" class="contact-link">bibinbenny1604@gmail.com</a>
+                    <div class="social-links">
+                        <a href="https://github.com/bibinbenny1" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/bibin-benny-429543392/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bibin Benny. Designed with intent.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
